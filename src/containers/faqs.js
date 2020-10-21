@@ -12,7 +12,6 @@ export function FaqsContainer() {
           <Accordion.Body>{item.body}</Accordion.Body>
         </Accordion.Item>
       ))}
-      <Accordion.Item></Accordion.Item>
     </Accordion>
   );
 }
