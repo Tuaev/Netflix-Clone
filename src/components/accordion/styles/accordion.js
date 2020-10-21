@@ -11,14 +11,21 @@ export const Inner = styled.div`
   flex-direction: column;
   max-width: 815px;
   margin: auto;
+
+  @media (max-width: 600px) {
+    padding: 70px 0;
+  }
 `;
 
 export const Item = styled.div`
   color: white;
-  margin-bottom: 8px;
-  max-width: 670px;
+  margin-bottom: 10px;
+  margin: auto;
+  // max-width: 670px;
+  width: 100%;
+
   &:first-of-type {
-    margin-top: 3em;
+    margin-top: 2em;
   }
 `;
 
@@ -26,9 +33,9 @@ export const Header = styled.h1`
   display: flex;
   justify-content: space-between;
   cursor: pointer;
-  margin-bottom: 1px;
+  margin-bottom: 8px;
   margin-top: 0;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: normal;
   background: #303030;
   padding: 0.8em 1.2em;
@@ -42,6 +49,13 @@ export const Header = styled.h1`
     @media (max-width: 600px) {
       width: 16px;
     }
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 20px;
+  }
+  @media (max-width: 600px) {
+    font-size: 18px;
   }
 `;
 
@@ -70,7 +84,10 @@ export const Title = styled.h1`
   color: white;
   text-align: center;
 
+  @media (max-width: 1000px) {
+    font-size: 38px;
+  }
   @media (max-width: 600px) {
-    font-size: 35px;
+    font-size: 26px;
   }
 `;
