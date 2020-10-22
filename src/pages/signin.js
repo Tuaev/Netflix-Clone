@@ -51,7 +51,9 @@ export default function Signin() {
               value={password}
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type="Submit" />
+            <Form.Submit disabled={isInvalid} type="Submit">
+              Sign In
+            </Form.Submit>
           </Form.Base>
           <Form.Text>
             New to Netflix? <Form.Link to="/signup">Sign up now.</Form.Link>
