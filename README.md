@@ -12,3 +12,4 @@ Compound components were used to build the components with most of the CSS copie
 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);" src="public/images/netflix-clone.png">
 </p>
 
+Credits to Based on Karl Hadwens tutorial https://github.com/karlhadwen
